@@ -970,23 +970,6 @@ a:visited
 	border:none;
 	mso-protection:locked visible;
 	mso-style-name:"Normal_WGC FEDEX";}
-.font9
-	{color:#00B050;
-	font-size:11.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:underline;
-	text-underline-style:single;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;}
-.font10
-	{color:#00B050;
-	font-size:11.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;}
 td
 	{mso-style-parent:style0;
 	padding-top:1px;
@@ -5353,3 +5336,8 @@ td
 	border-bottom:none;
 	border-left:.5pt solid windowtext;
 	white-space:normal;}
+.xl584
+	{mso-style-parent:style62;
+	color:#00B050;
+	font-weight:700;
+	text-align:center;}
