@@ -21,25 +21,27 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_files/sheet009.html">
 <link id="shLink" href="index_files/sheet010.html">
 <link id="shLink" href="index_files/sheet011.html">
+<link id="shLink" href="index_files/sheet012.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=11;
+ var c_lTabs=12;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Put Tournament Name Here (2 (3";
- c_rgszSh[1] = "Home";
- c_rgszSh[2] = "Rules";
- c_rgszSh[3] = "Schedule";
- c_rgszSh[4] = "Roster";
- c_rgszSh[5] = "Individual Winners";
- c_rgszSh[6] = "Team Winners";
- c_rgszSh[7] = "Side Bet Summary";
- c_rgszSh[8] = "Side Bet Details";
- c_rgszSh[9] = "6th Man";
- c_rgszSh[10] = "TBD_Template";
+ c_rgszSh[0] = "Put Tournament Name Here (2 (2";
+ c_rgszSh[1] = "WASTE MGMNT";
+ c_rgszSh[2] = "Home";
+ c_rgszSh[3] = "Rules";
+ c_rgszSh[4] = "Schedule";
+ c_rgszSh[5] = "Roster";
+ c_rgszSh[6] = "Individual Winners";
+ c_rgszSh[7] = "Team Winners";
+ c_rgszSh[8] = "Side Bet Summary";
+ c_rgszSh[9] = "Side Bet Details";
+ c_rgszSh[10] = "6th Man";
+ c_rgszSh[11] = "TBD_Template";
 
 
 
@@ -69,7 +71,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[2].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -317,48 +319,52 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Put Tournament Name Here (2 (3</x:Name>
+    <x:Name>Put Tournament Name Here (2 (2</x:Name>
     <x:WorksheetSource HRef="index_files/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Home</x:Name>
+    <x:Name>WASTE MGMNT</x:Name>
     <x:WorksheetSource HRef="index_files/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Rules</x:Name>
+    <x:Name>Home</x:Name>
     <x:WorksheetSource HRef="index_files/sheet003.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Schedule</x:Name>
+    <x:Name>Rules</x:Name>
     <x:WorksheetSource HRef="index_files/sheet004.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Roster</x:Name>
+    <x:Name>Schedule</x:Name>
     <x:WorksheetSource HRef="index_files/sheet005.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Individual Winners</x:Name>
+    <x:Name>Roster</x:Name>
     <x:WorksheetSource HRef="index_files/sheet006.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Team Winners</x:Name>
+    <x:Name>Individual Winners</x:Name>
     <x:WorksheetSource HRef="index_files/sheet007.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Side Bet Summary</x:Name>
+    <x:Name>Team Winners</x:Name>
     <x:WorksheetSource HRef="index_files/sheet008.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Side Bet Details</x:Name>
+    <x:Name>Side Bet Summary</x:Name>
     <x:WorksheetSource HRef="index_files/sheet009.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>6th Man</x:Name>
+    <x:Name>Side Bet Details</x:Name>
     <x:WorksheetSource HRef="index_files/sheet010.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>TBD_Template</x:Name>
+    <x:Name>6th Man</x:Name>
     <x:WorksheetSource HRef="index_files/sheet011.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>TBD_Template</x:Name>
+    <x:WorksheetSource HRef="index_files/sheet012.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_files/stylesheet.css"/>
@@ -367,8 +373,7 @@ function fnSetActiveSheet(iSh)
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
   <x:TabRatio>879</x:TabRatio>
-  <x:ActiveSheet>1</x:ActiveSheet>
-  <x:FirstVisibleSheet>1</x:FirstVisibleSheet>
+  <x:ActiveSheet>2</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -376,7 +381,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index_files/sheet002.html" name="frSheet">
+ <frame src="index_files/sheet003.html" name="frSheet">
  <frame src="index_files/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
