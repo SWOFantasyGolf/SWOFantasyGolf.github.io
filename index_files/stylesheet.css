@@ -7599,15 +7599,16 @@ td
 	{mso-style-parent:style1648;
 	color:black;
 	font-size:14.0pt;
-	text-align:center;
 	border:.5pt solid windowtext;
-	background:silver;
-	mso-pattern:black none;}
+	white-space:normal;}
 .xl754
 	{mso-style-parent:style1648;
 	color:black;
 	font-size:14.0pt;
-	border:.5pt solid windowtext;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
 	white-space:normal;}
 .xl755
 	{mso-style-parent:style1648;
@@ -7615,5 +7616,70 @@ td
 	font-size:14.0pt;
 	mso-number-format:"\0022$\0022\#\,\#\#0\.00\;\\\(\0022$\0022\#\,\#\#0\.00\\\)";
 	text-align:center;
-	border:.5pt solid windowtext;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl756
+	{mso-style-parent:style1648;
+	color:black;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:black none;}
+.xl757
+	{mso-style-parent:style1648;
+	color:black;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:black none;}
+.xl758
+	{mso-style-parent:style1648;
+	color:black;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:black none;}
+.xl759
+	{mso-style-parent:style1648;
+	color:black;
+	font-size:14.0pt;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl760
+	{mso-style-parent:style1648;
+	color:black;
+	font-size:14.0pt;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl761
+	{mso-style-parent:style1648;
+	color:black;
+	font-size:14.0pt;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00\;\\\(\0022$\0022\#\,\#\#0\.00\\\)";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
 	white-space:normal;}
