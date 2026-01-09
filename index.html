@@ -12,6 +12,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <![if !supportTabStrip]>
 <link id="shLink" href="index_files/sheet001.html">
 <link id="shLink" href="index_files/sheet002.html">
+<link id="shLink" href="index_files/chart001.html">
 <link id="shLink" href="index_files/sheet003.html">
 <link id="shLink" href="index_files/sheet004.html">
 <link id="shLink" href="index_files/sheet005.html">
@@ -50,54 +51,57 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_files/sheet038.html">
 <link id="shLink" href="index_files/sheet039.html">
 <link id="shLink" href="index_files/sheet040.html">
+<link id="shLink" href="index_files/sheet041.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=40;
+ var c_lTabs=42;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Put Tournament Name Here (2 (2)";
  c_rgszSh[1] = "Put Tournament Name Here (2 (2";
- c_rgszSh[2] = "Home";
- c_rgszSh[3] = "Sheet1";
- c_rgszSh[4] = "Rules";
- c_rgszSh[5] = "Schedule";
- c_rgszSh[6] = "Roster";
- c_rgszSh[7] = "Individual Winners";
- c_rgszSh[8] = "Team Winners";
- c_rgszSh[9] = "Side Bet Summary";
- c_rgszSh[10] = "Side Bet Details";
- c_rgszSh[11] = "6th Man";
- c_rgszSh[12] = "VALERO";
- c_rgszSh[13] = "AMEX";
- c_rgszSh[14] = "FARMERS";
- c_rgszSh[15] = "PEBBLE";
- c_rgszSh[16] = "WM PHOENIX";
- c_rgszSh[17] = "GENESIS";
- c_rgszSh[18] = "COGNIZANT";
- c_rgszSh[19] = "ARNOLD";
- c_rgszSh[20] = "PLAYERS";
- c_rgszSh[21] = "VALSPAR";
- c_rgszSh[22] = "MASTERS";
- c_rgszSh[23] = "HERITAGE";
- c_rgszSh[24] = "WELLS";
- c_rgszSh[25] = "TRUIST";
- c_rgszSh[26] = "PGA";
- c_rgszSh[27] = "SCHWAB";
- c_rgszSh[28] = "CANADIAN";
- c_rgszSh[29] = "MEMORIAL";
- c_rgszSh[30] = "US OPEN";
- c_rgszSh[31] = "TRAVELERS";
- c_rgszSh[32] = "OPEN CHAMP";
- c_rgszSh[33] = "WYNDHAM";
- c_rgszSh[34] = "ROCKET";
- c_rgszSh[35] = "FEDEX";
- c_rgszSh[36] = "BMW";
- c_rgszSh[37] = "Blank";
- c_rgszSh[38] = "SCOTTISH";
- c_rgszSh[39] = "FREE";
+ c_rgszSh[2] = "Chart1";
+ c_rgszSh[3] = "Home";
+ c_rgszSh[4] = "Sheet1";
+ c_rgszSh[5] = "Rules";
+ c_rgszSh[6] = "Schedule";
+ c_rgszSh[7] = "Roster";
+ c_rgszSh[8] = "Individual Winners";
+ c_rgszSh[9] = "Team Winners";
+ c_rgszSh[10] = "Side Bet Summary";
+ c_rgszSh[11] = "Side Bet Details";
+ c_rgszSh[12] = "6th Man";
+ c_rgszSh[13] = "VALERO";
+ c_rgszSh[14] = "AMEX";
+ c_rgszSh[15] = "FARMERS";
+ c_rgszSh[16] = "PEBBLE";
+ c_rgszSh[17] = "WM PHOENIX";
+ c_rgszSh[18] = "GENESIS";
+ c_rgszSh[19] = "COGNIZANT";
+ c_rgszSh[20] = "ARNOLD";
+ c_rgszSh[21] = "PLAYERS";
+ c_rgszSh[22] = "VALSPAR";
+ c_rgszSh[23] = "MASTERS";
+ c_rgszSh[24] = "HERITAGE";
+ c_rgszSh[25] = "CADILLAC";
+ c_rgszSh[26] = "TRUIST";
+ c_rgszSh[27] = "PGA";
+ c_rgszSh[28] = "SCHWAB";
+ c_rgszSh[29] = "Sheet2";
+ c_rgszSh[30] = "CANADIAN";
+ c_rgszSh[31] = "MEMORIAL";
+ c_rgszSh[32] = "US OPEN";
+ c_rgszSh[33] = "TRAVELERS";
+ c_rgszSh[34] = "OPEN CHAMP";
+ c_rgszSh[35] = "WYNDHAM";
+ c_rgszSh[36] = "ROCKET";
+ c_rgszSh[37] = "FEDEX";
+ c_rgszSh[38] = "BMW";
+ c_rgszSh[39] = "Blank";
+ c_rgszSh[40] = "SCOTTISH";
+ c_rgszSh[41] = "FREE";
 
 
 
@@ -127,7 +131,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[2].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[3].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -383,6 +387,10 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="index_files/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
+    <x:Name>Chart1</x:Name>
+    <x:WorksheetSource HRef="index_files/chart001.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
     <x:Name>Home</x:Name>
     <x:WorksheetSource HRef="index_files/sheet003.html"/>
    </x:ExcelWorksheet>
@@ -471,7 +479,7 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="index_files/sheet024.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>WELLS</x:Name>
+    <x:Name>CADILLAC</x:Name>
     <x:WorksheetSource HRef="index_files/sheet025.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -487,62 +495,66 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="index_files/sheet028.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>CANADIAN</x:Name>
+    <x:Name>Sheet2</x:Name>
     <x:WorksheetSource HRef="index_files/sheet029.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>MEMORIAL</x:Name>
+    <x:Name>CANADIAN</x:Name>
     <x:WorksheetSource HRef="index_files/sheet030.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>US OPEN</x:Name>
+    <x:Name>MEMORIAL</x:Name>
     <x:WorksheetSource HRef="index_files/sheet031.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>TRAVELERS</x:Name>
+    <x:Name>US OPEN</x:Name>
     <x:WorksheetSource HRef="index_files/sheet032.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>OPEN CHAMP</x:Name>
+    <x:Name>TRAVELERS</x:Name>
     <x:WorksheetSource HRef="index_files/sheet033.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>WYNDHAM</x:Name>
+    <x:Name>OPEN CHAMP</x:Name>
     <x:WorksheetSource HRef="index_files/sheet034.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>ROCKET</x:Name>
+    <x:Name>WYNDHAM</x:Name>
     <x:WorksheetSource HRef="index_files/sheet035.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>FEDEX</x:Name>
+    <x:Name>ROCKET</x:Name>
     <x:WorksheetSource HRef="index_files/sheet036.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>BMW</x:Name>
+    <x:Name>FEDEX</x:Name>
     <x:WorksheetSource HRef="index_files/sheet037.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Blank</x:Name>
+    <x:Name>BMW</x:Name>
     <x:WorksheetSource HRef="index_files/sheet038.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>SCOTTISH</x:Name>
+    <x:Name>Blank</x:Name>
     <x:WorksheetSource HRef="index_files/sheet039.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>FREE</x:Name>
+    <x:Name>SCOTTISH</x:Name>
     <x:WorksheetSource HRef="index_files/sheet040.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>FREE</x:Name>
+    <x:WorksheetSource HRef="index_files/sheet041.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_files/stylesheet.css"/>
-  <x:WindowHeight>12110</x:WindowHeight>
-  <x:WindowWidth>25600</x:WindowWidth>
+  <x:WindowHeight>18165</x:WindowHeight>
+  <x:WindowWidth>32767</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>600</x:WindowTopY>
   <x:TabRatio>920</x:TabRatio>
-  <x:ActiveSheet>2</x:ActiveSheet>
-  <x:FirstVisibleSheet>2</x:FirstVisibleSheet>
+  <x:ActiveSheet>3</x:ActiveSheet>
+  <x:FirstVisibleSheet>3</x:FirstVisibleSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
