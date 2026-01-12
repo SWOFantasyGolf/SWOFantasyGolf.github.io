@@ -4,9 +4,9 @@
  <o:File HRef="tabstrip.html"/>
  <o:File HRef="sheet001.html"/>
  <o:File HRef="sheet002.html"/>
- <o:File HRef="chart001.html"/>
- <o:File HRef="image001.gif"/>
  <o:File HRef="sheet003.html"/>
+ <o:File HRef="image002.png"/>
+ <o:File HRef="image003.gif"/>
  <o:File HRef="sheet004.html"/>
  <o:File HRef="sheet005.html"/>
  <o:File HRef="sheet006.html"/>
@@ -45,5 +45,6 @@
  <o:File HRef="sheet039.html"/>
  <o:File HRef="sheet040.html"/>
  <o:File HRef="sheet041.html"/>
+ <o:File HRef="sheet042.html"/>
  <o:File HRef="filelist.xml"/>
 </xml>
